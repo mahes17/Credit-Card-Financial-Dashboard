@@ -1,9 +1,12 @@
 # Credit-Card-Financial-Dashboard
-
+-----------------------
 Project overview:
+-----------------------
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 
+---------------------------------------------------------
 Steps Used to Create Dashboard:
+---------------------------------------------------------
 1)	Data Export 
 2)	Data Cleaning
 3)	Data Transformation
@@ -18,7 +21,11 @@ Steps Used to Create Dashboard:
 5)	Created the two dashboard one for Crediit card report and other dashboard created for Customer credit card transaction report.
 6)	Export the data and share the insights to the clients and stake holders.
 
+   
+-----------------------------------------------------------------------
 DAX Queries used:
+-----------------------------------------------------------------------
+
 Age Group = SWITCH(
     TRUE(),
     customer[Customer_Age] < 30,"20=30",
